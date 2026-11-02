@@ -1,0 +1,38 @@
+{
+  "name": "@tenzdelek/dsh-classify-text",
+  "version": "0.1.0",
+  "description": "Adds the classify_text tool, which classifies WeBuddhist Library texts as root texts, translations, or commentaries.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TenzDelek/dsh-classify-text.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "webuddhist",
+    "buddhist",
+    "tool"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "dshTarget": "0.1.0-rc.x",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+- insert:
+    - id: webuddhist-classify-text
+      name: '@tenzdelek/dsh-classify-text'
+      config: {}

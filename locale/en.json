@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "WeBuddhist Text Classifier",
+    "description": "Adds the classify_text tool, which classifies WeBuddhist Library texts as root texts, translations, or commentaries."
+  }
+}
